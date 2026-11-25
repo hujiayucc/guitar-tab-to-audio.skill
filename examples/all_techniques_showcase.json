@@ -1,0 +1,53 @@
+{
+  "title": "All 35 Guitar Techniques Showcase v2.0 (Percussive, Mutes, Legato, Bends, Harmonics, Velocity & Mixed Articulations)",
+  "bpm": 84.0,
+  "time_signature": "4/4",
+  "key": "E",
+  "capo": 0,
+  "tuning": "standard",
+  "humanize": true,
+  "mode": "accompaniment",
+  "tempo_map": [
+    {"measure": 4, "bpm": 76.0}
+  ],
+  "chords": {
+    "Em":   {"1": 0, "2": 0, "3": 0, "4": 2, "5": 2, "6": 0, "bass": 6},
+    "#Fm7": {"1": 2, "2": 2, "3": 2, "4": 2, "5": 4, "6": 2, "bass": 6}
+  },
+  "events": [
+    {"measure": 1, "dur_beats": 0.50, "art": "PERC_KICK",  "chord": "Em", "string": 6, "fret": 0, "velocity": 1.10},
+    {"measure": 1, "dur_beats": 0.50, "art": "PALM_MUTE",  "chord": "Em", "string": 5, "fret": 2, "velocity": 0.85},
+    {"measure": 1, "dur_beats": 0.50, "art": "SLAP_STRUM", "chord": "Em", "strings": [3, 2, 1], "velocity": 1.05},
+    {"measure": 1, "dur_beats": 0.50, "art": "PERC_TAP",   "velocity": 0.90},
+    {"measure": 1, "dur_beats": 0.50, "art": "ARP_ROLL",   "chord": "#Fm7", "strings": [6, 4, 3, 2, 1], "velocity": 1.00},
+    {"measure": 1, "dur_beats": 0.50, "art": "CHUCK_MUTE", "velocity": 1.00},
+    {"measure": 1, "dur_beats": 0.50, "art": "ARP_DOWN",   "chord": "#Fm7", "strings": [4, 3, 2, 1], "velocity": 0.90},
+    {"measure": 1, "dur_beats": 0.50, "art": "DEAD_NOTE",  "string": 5, "fret": 0, "velocity": 0.85},
+
+    {"measure": 2, "dur_beats": 0.25, "art": "PICK",       "string": 3, "fret": 4, "velocity": 0.95},
+    {"measure": 2, "dur_beats": 0.25, "art": "HAMMER",     "string": 3, "fret": 6, "velocity": 0.90},
+    {"measure": 2, "dur_beats": 0.25, "art": "TAP",        "string": 3, "fret": 12, "velocity": 1.05},
+    {"measure": 2, "dur_beats": 0.25, "art": "PULL",       "string": 3, "fret": 6, "velocity": 0.85},
+    {"measure": 2, "dur_beats": 0.50, "art": "SLIDE",      "string": 3, "fret": 9, "slide_from": 6, "velocity": 0.95},
+    {"measure": 2, "dur_beats": 0.50, "art": "STACCATO",   "string": 2, "fret": 8, "velocity": 0.95},
+    {"measure": 2, "dur_beats": 0.50, "art": "BEND_UP",    "string": 2, "fret": 10, "velocity": 1.10},
+    {"measure": 2, "dur_beats": 0.50, "art": "BEND_UP_REL","string": 2, "fret": 10, "velocity": 1.00},
+    {"measure": 2, "dur_beats": 0.50, "art": "TRILL",      "string": 1, "fret": 7, "trill_to": 9, "velocity": 0.95},
+    {"measure": 2, "dur_beats": 0.50, "art": "SLIDE_OUT",  "string": 1, "fret": 7, "slide_from": 2, "velocity": 0.90},
+
+    {"measure": 3, "dur_beats": 1.00, "art": "TREMOLO",         "string": 1, "fret": 12, "velocity": 0.95},
+    {"measure": 3, "dur_beats": 1.00, "art": "VIBRATO",         "string": 2, "fret": 12, "velocity": 1.00},
+    {"measure": 3, "dur_beats": 0.50, "art": "HARMONIC",        "string": 6, "fret": 12, "velocity": 0.95},
+    {"measure": 3, "dur_beats": 0.50, "art": "ARTIFICIAL_HARM", "string": 3, "fret": 4, "harm_node": 16, "velocity": 0.95},
+    {"measure": 3, "dur_beats": 1.00, "art": "TAPPED_HARM",     "string": 1, "fret": 7, "harm_node": 19, "velocity": 1.00},
+
+    {"measure": 4, "dur_beats": 1.00, "art": "CHORD", "notes": [
+      {"string": 6, "fret": 0, "art": "LET_RING", "velocity": 0.95},
+      {"string": 1, "fret": 7, "art": "GRACE_NOTE", "grace_from": 5, "velocity": 1.12}
+    ]},
+    {"measure": 4, "dur_beats": 0.50, "art": "FRET_NOISE",    "string": 5, "fret": 5, "velocity": 0.70},
+    {"measure": 4, "dur_beats": 1.00, "art": "SLAP_HARMONIC", "string": 2, "fret": 0, "harm_node": 12, "velocity": 1.00},
+    {"measure": 4, "dur_beats": 0.50, "art": "PICK_SCRAPE",   "string": 6, "fret": 0, "velocity": 0.75},
+    {"measure": 4, "dur_beats": 1.00, "art": "RASGUEADO",     "chord": "Em", "strings": [6, 5, 4, 3, 2, 1], "velocity": 1.05}
+  ]
+}

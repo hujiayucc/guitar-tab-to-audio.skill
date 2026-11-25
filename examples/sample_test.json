@@ -1,0 +1,18 @@
+{
+  "title": "Smoke Test Acoustic phrase",
+  "bpm": 76.0,
+  "capo": 0,
+  "mode": "accompaniment",
+  "chords": {
+    "E(7)": {"1": 7, "2": 9, "3": 9, "4": 9, "5": 7, "6": -1},
+    "Bm7(7)": {"1": 7, "2": 7, "3": 7, "4": 7, "5": 9, "6": 7}
+  },
+  "events": [
+    {"measure": 1, "dur_beats": 0.75, "art": "ARP_ROLL", "chord": "E(7)", "strings": [5, 3, 2, 1]},
+    {"measure": 1, "dur_beats": 0.25, "art": "PICK", "chord": "E(7)", "string": 4},
+    {"measure": 1, "dur_beats": 0.50, "art": "PICK", "chord": "E(7)", "string": 3},
+    {"measure": 1, "dur_beats": 0.50, "art": "PICK", "chord": "E(7)", "string": 4},
+    {"measure": 1, "dur_beats": 1.00, "art": "ARP_ROLL", "chord": "Bm7(7)", "strings": [6, 3, 2]},
+    {"measure": 1, "dur_beats": 1.00, "art": "HARMONIC", "string": 1, "fret": 12}
+  ]
+}
